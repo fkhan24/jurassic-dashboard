@@ -64,3 +64,39 @@ i {
 .darken {
   animation: blubber 500ms linear infinite;
 }
+
+@keyframes blubber {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: .5;
+  }
+
+}
+
+.lighten {
+  animation: bluub 500ms linear infinite
+}
+
+@keyframes bluub {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .6;
+  }
+
+  100% {
+    opacity: .3;
+  }
+
+}
