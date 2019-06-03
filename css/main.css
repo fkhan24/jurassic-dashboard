@@ -3,3 +3,64 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.dotty {
+  border-color: #6feff9;
+  border-style: dotted;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.dotts {
+  border-color: #6feff9;
+  border-style: dotted;
+  border-width: 1px;
+  border-top: 0;
+  border-right: 0;
+  filter: drop-shadow(2px 2px 5px #6feff9);
+}
+
+.btn {
+  color: #6feff9;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+i {
+  filter: drop-shadow(2px 2px 5px #6feff9);
+}
+
+.starry {
+  color: #ffd31d;
+}
+
+.alert-a {
+  color: #f62e52;
+  animation: pulsey 1500ms linear infinite;
+  transform-origin: 680.942px 1346.168px;
+}
+
+@keyframes pulsey {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.darken {
+  animation: blubber 500ms linear infinite;
+}
