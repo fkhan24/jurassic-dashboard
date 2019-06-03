@@ -100,3 +100,41 @@ i {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  .blah-1 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .blah-2 {
+    border-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .blah-3 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .blah-4 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+  }
+
+}
