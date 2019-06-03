@@ -82,7 +82,7 @@ i {
 }
 
 .lighten {
-  animation: bluub 500ms linear infinite
+  animation: bluub 500ms linear infinite;
 }
 
 @keyframes bluub {
